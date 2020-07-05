@@ -7,12 +7,12 @@ from email.mime.text import MIMEText
 
 smtp_server = "smtp.gmail.com"
 port = 587  # For starttls
-sender_email = "pythontestreper@gmail.com" # remember you can do name+extra to send multiple
-password = "0125Davinci"
+sender_email = "test@gmail.com" # remember you can do name+extra to send multiple
+password = "password"
 #password = input("Type your password and press enter: ")
 
-sender_email = "pythontestreper@gmail.com"
-receiver_email = "rreper@yahoo.com"
+sender_email = "test@gmail.com"
+receiver_email = "test@yahoo.com"
 subject = "An email with attachment from Python"
 body = "This is an email with attachment sent from Python"
 
